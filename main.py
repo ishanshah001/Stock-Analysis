@@ -110,8 +110,8 @@ def send_email():
     stock()
     print(mess)
     mess.replace(u"\u2018", "'").replace(u"\u2019", "'")
-    my_email = "reshamashah785@gmail.com"
-    password = "8169561072"
+    my_email = "your_email@gmail.com"
+    password = ""
     to_email = ["ishanpshah001@gmail.com","suhasiparihar5854@gmail.com","dshivam625@gmail.com ","ujjainwalaabdul007@gmail.com","dodiachirag04@gmail.com","krishna.rathod0212@gmail.com"]
     #to_email=["ishanpshah001@gmail.com"]
     connect = smtplib.SMTP("smtp.gmail.com")
